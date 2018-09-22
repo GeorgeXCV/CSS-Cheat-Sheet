@@ -214,4 +214,29 @@ a: visted {
 	background: grey;
 }
 
+/* Not on html page ( */
 
+/* html{
+	font-size: 10px;
+}
+*/
+
+/* e.g. User browser text size */ 
+#realtivetoroot {
+	font-size: 1rem; /* User can increase size */ 
+	border: 0.1rem color: black solid;
+	padding: 1rem;
+}
+
+ 
+#realtivetoparent {
+	font-size: 1em; /* User can increase size */ 
+	border: 0.1em color: black solid;
+	padding: 1em;
+}
+
+#fakebox {
+	background: blue;
+	height: 20vh; /* Always have height of X not matter size of window */ 
+	width: 50vw; 
+}
