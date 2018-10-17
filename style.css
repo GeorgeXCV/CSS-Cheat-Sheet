@@ -1,7 +1,7 @@
 /* Change everything 
 * {
-	margin:0;
-	padding:0; 
+	margin:0;    - Space between element's border and surrounding elements 
+	padding:0;  -  Space around an element
 }
 */
 
@@ -15,7 +15,7 @@ body {
 	/* Same as above */
 	font: normal 16px Arial, Helvetica, sans-serif;
 
-	line-height: 1.6em;
+	line-height: 1.6em; /* Realtive to Font value */ 
 	margin: 0;
 }
 
