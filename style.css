@@ -2,8 +2,42 @@
 * {
 	margin:0;    - Space between element's border and surrounding elements 
 	padding:0;  -  Space around an element
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 800;
+	flex: 2 2 150px;
 }
+
+  h2 {
+    position: relative;
+    top: 15px;
+    margin: auto; 
+  }
+
+   #searchbar {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+
+  #navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+
+  @media (max-width: 100px) { * CSS Rules *}
+
+  img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  
+}
+
 */
+
+
 
 body {
 	background-color: #f4f4f4;
